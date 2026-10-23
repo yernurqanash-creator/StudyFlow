@@ -90,7 +90,7 @@ class MainActivity : Activity() {
     private fun render() {
         screen.removeAllViews()
         val scroll = ScrollView(this).apply {
-            fillViewport = true
+            isFillViewport = true
             isVerticalScrollBarEnabled = false
         }
         val page = LinearLayout(this).apply {
